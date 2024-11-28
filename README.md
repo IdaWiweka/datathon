@@ -115,6 +115,5 @@ As the week progresses, the source of the infection becomes clearer and identifi
 > Legionnaires' outbreak in Tucumán claims sixth life
 >
 > Latest victim, who died late Sunday, was an 81-year-old patient with comorbidities who had been "in a serious condition" receiving treatment for pneumonia.
-# hds-datathon-data
 
 *** 
