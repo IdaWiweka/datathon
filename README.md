@@ -10,9 +10,38 @@ In this repository you will find the subset of the EPIWATCH data we will use for
 
 ### Accessing the data
 
+The latest EPIWATCH data is provided as a .csv file named `epiwatch-latest.csv`. You can download the file by navigating to the [release](./release/) folder, and selecting download or (preferably) by reading the data directly into your statistical software package, as demonstrated in the R and Python code snippets below. 
+
+#### Read data with R
+
 ```
-readr::read_csv()
+# GitHub raw URL for the CSV file
+url <- "https://raw.githubusercontent.com/CBDRH/hds-datathon-data/refs/heads/main/release/epiwatch-latest.csv"
+
+# Read the CSV file from the URL
+data <- read.csv(url)
+
+# View the first few rows of the data
+head(data)
 ```
+
+#### Read data with Python
+
+```
+import pandas as pd
+
+# GitHub raw URL for the CSV file
+url = "https://raw.githubusercontent.com/CBDRH/hds-datathon-data/refs/heads/main/release/epiwatch-latest.csv"
+
+# Read the CSV file from the URL into a pandas DataFrame
+data = pd.read_csv(url)
+
+# View the first few rows of the data
+print(data.head())
+
+```
+
+## Dataset summary
 
 ***
 
@@ -87,3 +116,5 @@ As the week progresses, the source of the infection becomes clearer and identifi
 >
 > Latest victim, who died late Sunday, was an 81-year-old patient with comorbidities who had been "in a serious condition" receiving treatment for pneumonia.
 # hds-datathon-data
+
+*** 
