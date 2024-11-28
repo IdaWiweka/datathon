@@ -10,7 +10,7 @@ In this repository you will find the subset of the EPIWATCH data we will use for
 
 ### Accessing the data
 
-The latest EPIWATCH data is provided as a .csv file named `epiwatch-latest.csv`. You can download the file by navigating to the [release](./release/) folder, and selecting download or (preferably) by reading the data directly into your statistical software package, as demonstrated in the R and Python code snippets below. 
+The latest EPIWATCH data is provided as a .csv file named `epiwatch-latest.csv`. You can download the file by navigating to the [release](./release/) folder, selecting the file and clicking download or (preferably) by reading the data directly into your statistical software package, as demonstrated in the R and Python code snippets below. 
 
 #### Read data with R
 
